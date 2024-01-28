@@ -35,31 +35,37 @@ export const HomeTravel = () => {
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+
         <motion.li variants={item} className="home-travel__item">
           <Link to="/travel">
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+        
         <motion.li variants={item} className="home-travel__item">
           <Link to="/travel">
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+
         <motion.li variants={item} className="home-travel__item">
           <Link to="/travel">
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+
         <motion.li variants={item} className="home-travel__item">
           <Link to="/travel">
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+
         <motion.li variants={item} className="home-travel__item">
           <Link to="/travel">
             <img src="/travel.png" alt="travel" />
           </Link>
         </motion.li>
+
       </motion.ul>
 
       <Link to="/">
@@ -67,6 +73,7 @@ export const HomeTravel = () => {
           <LikeIcon />
         </div>
       </Link>
+      
       <div className="home-travel__geolocation">
         <div className="home-travel__title">
           Mount Fuji,<span> Tokyo</span>

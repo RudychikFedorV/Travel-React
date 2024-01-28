@@ -1,0 +1,191 @@
+.TravelPage {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 26px;
+  gap: 20px;
+  border-radius: 50px;
+  background: #fff;
+
+  &__background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+  &__img {
+    border-radius: 30px;
+    width: 560px;
+    img {
+      border-radius: inherit;
+    }
+  }
+  &__arrow {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 42px;
+    left: 26px;
+    padding: 16px 21px 16px 18px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgba(29, 29, 29, 0.4);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+  }
+  &__archive {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 42px;
+    left: 305px;
+    padding: 10px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgba(29, 29, 29, 0.4);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+  }
+  &__geolocation {
+    display: flex;
+    flex-direction: column;
+
+    padding: 11px 16px 16px 14px;
+    border-radius: 15px;
+    background: rgba(29, 29, 29, 0.4);
+    box-shadow: 0px 5px 9px 0px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+
+    width: 331px;
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: -31px;
+    left: 21.5px;
+  }
+  &__sectionst {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+  }
+  &__title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  &__price {
+    color: #cac8c8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__section {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  &__desc {
+    color: #cac8c8;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__rating {
+    color: #cac8c8;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    span {
+      color: #434343;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+
+  //   Overview
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 12px;
+  }
+  &__overview {
+    color: #1b1b1b;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  &__details {
+    color: rgba(27, 27, 27, 0.62);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  //   Icons
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    max-width: 374px;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  &__icons-clock {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 6px;
+    background: #ededed;
+  }
+
+  //   text
+  &__text {
+    max-width: 374px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150.188%;
+
+    background: linear-gradient(
+      180deg,
+      #a5a5a5 29.69%,
+      rgba(165, 165, 165, 0) 89.06%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  //   btn
+  &__btn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 373px;
+  }
+  &__btn-text {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .btn {
+    padding: 21px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #1b1b1b 0%, #1b1b1b 100%),
+      rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 13px 26px -2px rgba(0, 0, 0, 0.12);
+  }
+}
