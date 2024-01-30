@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import LikeIcon from "../../../components/Icons/LikeIcon";
+import SlideTravel1 from "../../../components/Icons/travelComponents/SlideTravel1";
+import SlideTravel2 from "../../../components/Icons/travelComponents/SlideTravel2";
 
 export const HomeTravel = () => {
   const container = {
@@ -31,72 +31,25 @@ export const HomeTravel = () => {
         animate="visible"
       >
         <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
+          <SlideTravel1 />
         </motion.li>
 
         <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
-        </motion.li>
-        
-        <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
+          <SlideTravel2 />
         </motion.li>
 
         <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
+          <SlideTravel1 />
         </motion.li>
 
         <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
+          <SlideTravel1 />
         </motion.li>
 
         <motion.li variants={item} className="home-travel__item">
-          <Link to="/travel">
-            <img src="/travel.png" alt="travel" />
-          </Link>
+          <SlideTravel2 />
         </motion.li>
-
       </motion.ul>
-
-      <Link to="/">
-        <div className="home-travel__likeIcon">
-          <LikeIcon />
-        </div>
-      </Link>
-      
-      <div className="home-travel__geolocation">
-        <div className="home-travel__title">
-          Mount Fuji,<span> Tokyo</span>
-        </div>
-        <div className="home-travel__sections">
-          <Link to="/">
-            <div className="home-travel__section">
-              <div className="home-travel__svg">
-                <img src="/marker.svg" alt="marker" />
-              </div>
-              <div className="home-travel__desc">Tokyo, Japan</div>
-            </div>
-          </Link>
-          <Link to="/">
-            <div className="home-travel__block">
-              <div className="home-travel__vector">
-                <img src="/vector.svg" alt="vector" />
-              </div>
-              <div className="home-travel__rating">4.8</div>
-            </div>
-          </Link>
-        </div>
-      </div>
     </div>
   );
 };
