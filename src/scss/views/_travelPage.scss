@@ -4,7 +4,7 @@
   padding: 34px 26px;
   gap: 20px;
   border-radius: 50px;
-  background: #fff;
+  background: $white;
 
   &__background {
     position: relative;
@@ -68,16 +68,12 @@
     margin-bottom: 17px;
   }
   &__title {
-    color: #fff;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 600;
+    color: $white;
+    font: var(--Inter-600-24);
   }
   &__price {
-    color: #cac8c8;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
+    color: $color-shadow;
+    font: var(--Roboto-400-16);
   }
   &__sections {
     display: flex;
@@ -90,21 +86,15 @@
     gap: 6px;
   }
   &__desc {
-    color: #cac8c8;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 400;
+    color: $color-shadow;
+    font: var(--Roboto-400-18);
   }
   &__rating {
-    color: #cac8c8;
-    font-family: Roboto;
-    font-size: 26px;
-    font-weight: 500;
+    color: $color-shadow;
+    font: var(--Roboto-500-26);
     span {
-      color: #434343;
-      font-family: Roboto;
-      font-size: 20px;
-      font-weight: 500;
+      color: $color-dark;
+      font: var(--Roboto-500-20);
     }
   }
 
@@ -116,16 +106,12 @@
     margin-bottom: 12px;
   }
   &__overview {
-    color: #1b1b1b;
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 600;
+    color: $color-dark-black;
+    font: var(--Inter-600-22);
   }
   &__details {
-    color: rgba(27, 27, 27, 0.62);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
+    color: $color-rgba-black;
+    font: var(--Inter-600-16);
   }
 
   //   Icons
@@ -145,15 +131,13 @@
     align-items: center;
     padding: 9px;
     border-radius: 6px;
-    background: #ededed;
+    background: $background-3;
   }
 
   //   text
   &__text {
     max-width: 374px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
+    font: var(--Roboto-500-18);
     line-height: 150.188%;
 
     background: linear-gradient(
@@ -163,7 +147,7 @@
     );
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgb(154, 134, 134, 0.5);
   }
 
   //   btn
@@ -175,11 +159,9 @@
     max-width: 373px;
   }
   &__btn-text {
-    color: #fff;
+    color: $white;
     text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
+    font: var(--Roboto-500-20);
   }
   .btn {
     padding: 21px;

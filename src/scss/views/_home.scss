@@ -5,17 +5,14 @@
   gap: 20px;
 
   &__hi {
-    color: #2f2f2f;
-    font-size: 30px;
-    font-weight: 600;
+    color: $color-black;
+    font: var(--Montserrat-600-30);
     margin-bottom: 9px;
   }
 
   &__text {
-    color: #888;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
+    color: $color-grey;
+    font: var(--Inter-500-20);
     letter-spacing: 0.1px;
   }
 
@@ -41,7 +38,7 @@
       display: block;
       width: 2px;
       height: 32px;
-      background: #d2d2d2;
+      background: $background-1;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -67,19 +64,17 @@
   &__input {
     width: 100%;
     border-radius: 20px;
-    border: 2px solid #d2d2d2;
+    border: 2px solid $background-1;
     padding: 20px 30px;
     padding-right: 95px;
-    color: #888;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
+    color: $color-grey;
+    font: var(--Roboto-500-16);
   }
 }
 
 .home-places {
   padding: 0 26px;
-  font-family: Roboto;
+  font-family: var(--Roboto);
 
   &__header {
     display: flex;
@@ -90,16 +85,13 @@
   }
 
   &__title {
-    color: #2f2f2f;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Poppins;
+    color: $color-black;
+    font: var(--Poppins-600-20);
   }
 
   &__view-all {
-    color: #888;
-    font-size: 16px;
-    font-weight: 600;
+    color: $color-grey;
+    font: var(--Montserrat-600-16);
   }
 
   &__list {
@@ -112,16 +104,14 @@
 
   &__item {
     border-radius: 20px;
-    background: #fbfbfb;
+    background: $background-2;
     padding: 18px 21px;
-    color: #c5c5c5;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
+    color: $color-white;
+    font: var(--Roboto-500-16);
 
     &.is-active {
       background: #2f2f2f;
-      color: #fff;
+      color: $white;
       filter: drop-shadow(0px 9px 19px rgba(0, 0, 0, 0.15));
     }
   }
