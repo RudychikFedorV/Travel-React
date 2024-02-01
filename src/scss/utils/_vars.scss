@@ -6,14 +6,19 @@
   --Roboto: "Roboto", sans-serif;
   --transition: 0.2s all ease-in-out;
 
+  --Montserrat-600-35: 600 35px / normal var(--Montserrat);
   --Montserrat-600-30: 600 30px / normal var(--Montserrat);
+  --Montserrat-600-25: 600 25px / normal var(--Montserrat);
+  --Montserrat-600-20: 600 20px / normal var(--Montserrat);
   --Montserrat-600-16: 600 16px / normal var(--Montserrat);
 
+  --Inter-500-25: 500 25px / normal var(--Inter);
   --Inter-500-20: 500 20px / normal var(--Inter);
   --Inter-600-24: 600 24px / normal var(--Inter);
   --Inter-600-22: 600 22px / normal var(--Inter);
   --Inter-600-16: 600 16px / normal var(--Inter);
 
+  --Poppins-600-25: 600 25px / normal var(--Poppins);
   --Poppins-600-20: 600 20px / normal var(--Poppins);
 
   --Roboto-500-26: 500 26px / normal var(--Roboto);
@@ -35,4 +40,3 @@ $color-rgba-black: rgba(27, 27, 27, 0.62);
 $background-1: #d2d2d2;
 $background-2: #fbfbfb;
 $background-3: #ededed;
-

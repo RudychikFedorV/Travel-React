@@ -10,6 +10,12 @@ body,
 #root {
   padding-bottom: 80px;
   overflow-y: auto;
+
+  @include desktop-small {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding-bottom: 0;
+  }
 }
 header {
   position: fixed;
@@ -22,6 +28,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 64px;
+
+  @include desktop-small {
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 50px;
+    box-shadow: 1px 1px 20px #929292;
+  }
 }
 li {
   list-style: none;
@@ -29,4 +45,7 @@ li {
 ul {
   margin: 0;
   padding: 0;
+}
+a {
+  display: inline-block;
 }

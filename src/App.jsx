@@ -25,7 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/travel" element={<TravelPage />}></Route>
-			<Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           {currentUrl !== "/travel" && (
             <header className="home__header">
